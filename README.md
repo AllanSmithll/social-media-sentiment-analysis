@@ -3,9 +3,9 @@
 Este projeto utiliza algoritmos de aprendizado de máquina para analisar a relação entre o uso de redes sociais e o bem-estar emocional. Diversos classificadores foram testados para encontrar o modelo mais adequado.
 
 ## 📂 Estrutura do Projeto
-- **Download do dataset**: Obtém os dados do Kaggle.
-- **Pré-processamento**: Trata valores categóricos e normaliza os dados.
-- **Treinamento e avaliação**: Testa vários algoritmos, incluindo Decision Tree, kNN, MLP e K-Means.
+- **Download do dataset**: obtém os dados do Kaggle.
+- **Pré-processamento**: trata valores categóricos e normaliza os dados.
+- **Treinamento e avaliação**: testa vários algoritmos, incluindo Decision Tree, kNN, MLP e K-Means.
 
 ## 📊 Dataset
 **Nome:** Social Media Usage and Emotional Well-being  
@@ -47,7 +47,7 @@ pip install numpy pandas scikit-learn matplotlib kagglehub
 
 ### 2️⃣ k-Nearest Neighbors (kNN)
 - **k = 5 e k = 10**
-- **Métrica:** Distância Euclidiana
+- **Métrica:** distância Euclidiana
 
 ### 3️⃣ Multi-layer Perceptron (MLP)
 
@@ -59,7 +59,7 @@ Foram testadas duas arquiteturas diferentes:
 Parâmetros:
 - **Função de ativação:** `tanh` e `relu`
 - **Taxa de aprendizado:** `0.03` (MLP 1) e `0.015` (MLP 2)
-- **Early stopping:** Ativado
+- **Early stopping:** ativado
 
 ### 4️⃣ K-Means
 - **Número de clusters:** Definido pelo número de classes no problema
